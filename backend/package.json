@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GymRadar API Backend",
+  "main": "src/bin/server.js",
+  "scripts": {
+    "start": "node src/bin/server.js",
+    "dev": "nodemon src/bin/server.js",
+    "build": "prisma generate",
+    "migrate": "prisma migrate deploy",
+    "studio": "prisma studio"
+  },
+  "keywords": ["api", "gymradar", "express"],
+  "author": "LeoSudario",
+  "license":  "MIT",
+  "dependencies":  {
+    "@prisma/client": "^6.17.0",
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.0.0",
+    "morgan": "^1.10.0",
+    "cookie-parser": "^1.4.7"
+  },
+  "devDependencies": {
+    "prisma": "^6.17.0",
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
