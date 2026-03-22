@@ -1,10 +1,13 @@
 # GymRadar
 
+Alunos: Daniel Olimpio, Gabriel Andrade Cintra, Leonardo Sudário Delfino de Oliveira Flávio, Roberta Carreira Barcarollo.
+
 Projeto interdisciplinar da Faculdade de Tecnologia — FATEC — primeiro semestre de 2026
 
 Aplicativo móvel (Expo/React Native) com backend Node.js/Express + Prisma (MongoDB) para gerenciamento de academias, autenticação, registro de clientes (check-in/out) e visualização em tempo real da ocupação das unidades.
 
 ## Sumário
+
 - Visão Geral
 - Principais Funcionalidades
 - Stack Tecnológica
@@ -20,7 +23,9 @@ Aplicativo móvel (Expo/React Native) com backend Node.js/Express + Prisma (Mong
 ---
 
 ## Visão Geral
+
 GymRadar permite:
+
 - Criar e gerenciar academias (nome único, capacidade, telefone, endereço)
 - Autenticação de usuários (login e cadastro) com JWT
 - Check-in/Check-out de clientes por academia
@@ -32,6 +37,7 @@ GymRadar permite:
 Este projeto foi desenvolvido como parte do “Projeto interdisciplinar da faculdade de tecnologia — FATEC — primeiro semestre de 2026”.
 
 ## Principais Funcionalidades
+
 - Autenticação (login, signup) e guarda de rotas: usuários não autenticados são redirecionados para a tela de login.
 - Lista de academias com barra de ocupação animada e ação de exclusão.
 - Registro de clientes (check-in/out) por academia configurada.
@@ -39,6 +45,7 @@ Este projeto foi desenvolvido como parte do “Projeto interdisciplinar da facul
 - Simulador IoT (tela separada) para testes de dados.
 
 ## Stack Tecnológica
+
 - Mobile: Expo + React Native + Expo Router
 - Backend: Node.js + Express
 - ORM: Prisma
@@ -47,6 +54,7 @@ Este projeto foi desenvolvido como parte do “Projeto interdisciplinar da facul
 - Armazenamento local (mobile): AsyncStorage
 
 ## Arquitetura
+
 - mobile/GymRadar
   - src/api: cliente HTTP (fetch) com gerenciamento de token
   - src/context: contexto de Auth (token/usuário) e Gym (ocupação/refresh)
@@ -59,11 +67,13 @@ Este projeto foi desenvolvido como parte do “Projeto interdisciplinar da facul
 ## Como Executar
 
 ### Pré-requisitos
+
 - Node.js 18+
 - MongoDB (local ou Atlas) e variável `DATABASE_URL`
 - Expo CLI (opcional, via `npx`)
 
 ### Backend
+
 1. Instale dependências:
    - `npm install`
 2. Configure variável de ambiente:
@@ -76,6 +86,7 @@ Este projeto foi desenvolvido como parte do “Projeto interdisciplinar da facul
 5. O backend deve responder em `http://localhost:5000` (ajuste conforme necessário).
 
 ### Mobile (Expo)
+
 1. Instale dependências:
    - `npm install` (ou `yarn`)
 2. Configure o backend no app:
@@ -89,10 +100,12 @@ Este projeto foi desenvolvido como parte do “Projeto interdisciplinar da facul
 ## Configuração
 
 ### Variáveis Expo (extra)
+
 - `backendUrl`: URL do backend (ex.: `http://192.168.100.166:5000`)
 - `gymId`: nome da academia padrão para operações de check-in/out (ex.: `Academia Centro`)
 
 ### Armazenamento de Token
+
 - Chave AsyncStorage: `auth_token`
 - O cliente HTTP (`src/api/client.ts`) aplica automaticamente `Authorization: Bearer <token>` quando o token está definido.
 - Em `AuthContext`, o estado de autenticação é derivado da presença do token e hidratação inicial.
@@ -115,6 +128,7 @@ Respostas incorretas (erros) retornam `message` para exibição no cliente.
 ## Modelos de Dados (Prisma)
 
 Schema (MongoDB) típico:
+
 ```prisma
 generator client {
   provider = "prisma-client-js"
@@ -149,6 +163,7 @@ model Gym {
 ```
 
 Observações:
+
 - `Gym.name` é único — a tentativa de criar um nome já existente gera erro Prisma `P2002`.
 - IDs são `ObjectId` via string; não envie `id` ao criar, e ao deletar use exatamente o `id` retornado.
 - `capacity` é `Int` e `occupancy` inicia em 0.
@@ -171,6 +186,7 @@ Observações:
   - Chame `GymContext.refresh()` e recarregue a lista de academias (`getGyms()`) ao concluir operações de cliente.
 
 ## Scripts Úteis (exemplos)
+
 - Backend:
   - `npm run dev` → inicia servidor com nodemon
   - `npx prisma generate` → gera client Prisma
@@ -179,6 +195,7 @@ Observações:
   - `npm run android` / `npm run ios` → roda em emuladores
 
 ## Licença e Créditos
+
 - Projeto acadêmico: “Projeto interdisciplinar da faculdade de tecnologia — FATEC — primeiro semestre de 2026”.
 - Este repositório é para fins educacionais/demonstração.
 - Créditos aos participantes e docentes da FATEC.
