@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String  @id @map("_id") @db.ObjectId @default(auto())
+  username  String  @unique
+  password  String
+}
+
+model Client {
+  id       String  @id @map("_id") @db.ObjectId @default(auto())
+  name     String
+  gymName  String
+  email    String?
+  phone    String?
+}
+
+model Gym {
+  id         String  @id @map("_id") @db.ObjectId @default(auto())
+  name       String  @unique
+  address    String?
+  phone      String?
+  capacity   Int
+  occupancy  Int      @default(0)
+}
+
+model IoTEvent {
+  id         String   @id @map("_id") @db.ObjectId @default(auto())
+  gymName    String
+  deviceId   String
+  eventType  String   // "checkin" | "checkout"
+  source     String?  // "button" | "simulator"
+  occurredAt DateTime?
+  receivedAt DateTime @default(now())
+
+  @@index([gymName, receivedAt])
+}
