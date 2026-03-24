@@ -1,0 +1,150 @@
+/* Page grid with one main column */
+.home-page {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 24px;
+    padding: 24px;
+}
+
+/* Hero banner section */
+.hero {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    min-height: 240px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(https://t3.ftcdn.net/jpg/08/27/87/60/360_F_827876077_k0EWo3jSiWZPR8fRgsSbZFT9SkrozNuj.jpg) center/cover no-repeat;
+    filter: brightness(0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 24px;
+}
+
+.hero-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 16px 0 8px;
+}
+
+.hero-subtitle {
+    color: var(--secondary-color);
+    max-width: 800px;
+}
+
+/* Column container for page content */
+.home-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+/* A simple card wrapper for forms */
+.panel,
+.panel2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 16px;
+    width: 230px;
+}
+
+/* Reuse dashboard card styles */
+.gym-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.gym-card {
+    background: #181818;
+    border: 1px solid #3b0000;
+    /* subtle red border to match screenshot vibe */
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.gym-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gym-name {
+    font-weight: 700;
+}
+
+.progress {
+    height: 10px;
+    width: 100%;
+    background: #2b2b2b;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #2ecc71, #27ae60);
+    transition: width 200ms ease;
+}
+
+.progress-bar.full {
+    background: linear-gradient(90deg, #ff7675, #e74c3c);
+}
+
+.progress-bar.half {
+    background: linear-gradient(90deg, #f1c40f, #f39c12);
+}
+
+.progress-info {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
+/* Timer chip */
+.timer-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #300000;
+    border: 1px solid #550000;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 999px;
+}
+
+.gymAdd {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputsHome {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.panel2 {
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}

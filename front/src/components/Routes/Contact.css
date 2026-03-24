@@ -1,0 +1,19 @@
+.contact-page {
+  background-image: url(https://t3.ftcdn.net/jpg/08/27/87/60/360_F_827876077_k0EWo3jSiWZPR8fRgsSbZFT9SkrozNuj.jpg);
+  background-size: cover;
+  height: 10vh;
+}
+
+.contact-page h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
