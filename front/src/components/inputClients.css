@@ -1,0 +1,16 @@
+#gymName{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.home-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.client-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

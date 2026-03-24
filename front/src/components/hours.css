@@ -1,0 +1,12 @@
+.hours {
+    background-color: #000000;
+    border: solid 1px var(--border);
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.hours h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}

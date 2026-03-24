@@ -1,0 +1,45 @@
+nav {
+  position: fixed;       /* fixed so it stays on top */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;          /* set a consistent height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  background: rgba(0, 0, 0, 0.0); /* translucent or solid background */
+  backdrop-filter: blur(4px);
+  z-index: 1000;         /* ensure above hero/content */
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #c90505;
+}
+
+.nav-button-logout {
+  position: absolute;
+  right: 16px;
+  background-color: #ffffff;
+  color: #074e31;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav-button-logout:hover {
+  background-color: var(--hover-color);
+  color: #ffffff;
+}
