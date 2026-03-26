@@ -1,6 +1,6 @@
 # GymRadar
 
-Alunos: Daniel Olimpio, Gabriel Andrade Cintra, Leonardo Sudário Delfino de Oliveira Flávio, Roberta Carreira Barcarollo.
+Alunos: Daniel Olimpio, Gabriel Andrade Cintra, Leonardo Sudário, Roberta Carreira Barcarollo.
 
 Projeto interdisciplinar da Faculdade de Tecnologia — FATEC — primeiro semestre de 2026
 
