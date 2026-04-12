@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useState } from "react";
 import {
   Pressable,
   StyleSheet,
@@ -14,7 +14,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { useGym } from "../src/context/GymContext";
 import OccupancyBar from "../src/components/OccupancyBar";
 import { useAuth } from "../src/context/AuthContext";
-import { router, type Href } from "expo-router";
+import { router, type Href, useFocusEffect } from "expo-router";
 import Timer from "../src/components/Timer";
 import CheckInNOut from "@/src/components/CheckInNOut";
 import * as GymAPI from "../src/api/gym";
@@ -33,29 +33,47 @@ export default function Home() {
   const { logout, user } = useAuth();
   const [gyms, setGyms] = useState<Gym[]>([]);
 
-  async function reloadGyms() {
+  const reloadGyms = useCallback(async () => {
     try {
       const list = await GymAPI.getGyms();
       setGyms(list);
     } catch (e) {
       console.log("Failed to fetch gyms", e);
     }
-  }
-
-  useEffect(() => {
-    reloadGyms();
   }, []);
+
+  useFocusEffect(
+    useCallback(() => {
+      let alive = true;
+
+      const tick = async () => {
+        try {
+          const list = await GymAPI.getGyms();
+          if (alive) setGyms(list);
+        } catch (e) {
+          // opcional: console.log(e)
+        }
+      };
+
+      tick(); 
+      const id = setInterval(tick, 1000); 
+
+      return () => {
+        alive = false;
+        clearInterval(id);
+      };
+    }, [])
+  );
 
   async function handleDeleteGym(id: string) {
     try {
-
       setGyms(prev => prev.filter(g => g.id !== id));
       await GymAPI.deleteGym(id);
       Alert.alert("Deleted", "Gym deleted successfully");
     } catch (err: any) {
       console.error(err);
       Alert.alert("Delete failed", err?.message ?? String(err));
-     reloadGyms();
+      reloadGyms();
     }
   }
 
@@ -72,7 +90,9 @@ export default function Home() {
       >
         <View style={styles.containerImg}>
           <ImageBackground
-            source={{ uri: "https://t3.ftcdn.net/jpg/08/27/87/60/360_F_827876077_k0EWo3jSiWZPR8fRgsSbZFT9SkrozNuj.jpg" }}
+            source={{
+              uri: "https://t3.ftcdn.net/jpg/08/27/87/60/360_F_827876077_k0EWo3jSiWZPR8fRgsSbZFT9SkrozNuj.jpg",
+            }}
             style={styles.imageBackground}
             imageStyle={styles.imageStyle}
             resizeMode="cover"
@@ -83,7 +103,9 @@ export default function Home() {
             />
             <View style={styles.hero}>
               <View style={styles.headerContainer}>
-                <Text style={styles.header}>Hi {user?.username ?? "Member"}</Text>
+                <Text style={styles.header}>
+                  Hi {user?.username ?? "Member"}
+                </Text>
                 <Pressable
                   style={styles.logOutButton}
                   onPress={() => {
@@ -123,7 +145,6 @@ export default function Home() {
 
         <View style={{ height: 12 }} />
 
-      
         <Pressable
           style={styles.registerGymButton}
           onPress={() => router.push("/addGym" as Href)}
@@ -133,11 +154,16 @@ export default function Home() {
 
         <CheckInNOut
           username={user?.username ?? undefined}
-          onClientAdded={() => { refresh(); reloadGyms(); }}
-          onClientDeleted={() => { refresh(); reloadGyms(); }}
+          onClientAdded={() => {
+            refresh();
+            reloadGyms();
+          }}
+          onClientDeleted={() => {
+            refresh();
+            reloadGyms();
+          }}
         />
 
-        
         <View style={{ height: 12 }} />
 
         <Pressable
@@ -154,7 +180,12 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   screen: { flex: 1 },
-  content: { padding: 20, gap: 12, paddingBottom: 32, backgroundColor: "#292929ff" },
+  content: {
+    padding: 20,
+    gap: 12,
+    paddingBottom: 32,
+    backgroundColor: "#292929ff",
+  },
   headerContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -180,8 +211,16 @@ const styles = StyleSheet.create({
   },
   imageBackground: { flex: 1, padding: 12, justifyContent: "space-between" },
   imageStyle: { borderRadius: 8 },
-  hero: { paddingHorizontal: 18, paddingBottom: Platform.OS === "ios" ? 18 : 14 },
-  heroTitle: { color: "#fff", fontSize: 34, fontWeight: "700", lineHeight: 38 },
+  hero: {
+    paddingHorizontal: 18,
+    paddingBottom: Platform.OS === "ios" ? 18 : 14,
+  },
+  heroTitle: {
+    color: "#fff",
+    fontSize: 34,
+    fontWeight: "700",
+    lineHeight: 38,
+  },
   highlight: { color: "#ee3235" },
   refreshButton: {
     backgroundColor: "#eee",
@@ -195,14 +234,14 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 6,
     alignItems: "center",
-    opacity: 0.3 ,
+    opacity: 0.3,
   },
-  openSimText: { color: "#ffffffff", fontWeight: "600", padding: 4,  },
+  openSimText: { color: "#ffffffff", fontWeight: "600", padding: 4 },
   registerGymButton: {
     backgroundColor: "#ee3235",
     padding: 10,
     borderRadius: 6,
     alignItems: "center",
   },
-  registerGymText: { color: "#ffffffff", fontWeight: "600", padding: 4, },
+  registerGymText: { color: "#ffffffff", fontWeight: "600", padding: 4 },
 });
