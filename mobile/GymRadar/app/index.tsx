@@ -163,16 +163,6 @@ export default function Home() {
             reloadGyms();
           }}
         />
-
-        <View style={{ height: 12 }} />
-
-        <Pressable
-          style={styles.openSimButton}
-          onPress={() => router.push("/simulator" as Href)}
-        >
-          <Text style={styles.openSimText}>Open IoT Simulator</Text>
-        </Pressable>
-        <View style={{ height: 24 }} />
       </ScrollView>
     </KeyboardAvoidingView>
   );
