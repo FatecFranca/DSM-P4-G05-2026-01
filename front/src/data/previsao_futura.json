@@ -1,0 +1,2501 @@
+[
+    {
+        "dia_semana_num": 0,
+        "hora": 6,
+        "lotacao_prevista": 29.05549246736977,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 7,
+        "lotacao_prevista": 29.838496995620854,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 8,
+        "lotacao_prevista": 30.621501523871935,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 9,
+        "lotacao_prevista": 31.40450605212302,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 10,
+        "lotacao_prevista": 32.1875105803741,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 11,
+        "lotacao_prevista": 32.970515108625186,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 12,
+        "lotacao_prevista": 33.75351963687627,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 13,
+        "lotacao_prevista": 34.536524165127354,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 14,
+        "lotacao_prevista": 35.31952869337844,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 15,
+        "lotacao_prevista": 36.102533221629514,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 16,
+        "lotacao_prevista": 36.8855377498806,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 17,
+        "lotacao_prevista": 37.66854227813168,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 18,
+        "lotacao_prevista": 38.451546806382765,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 19,
+        "lotacao_prevista": 39.23455133463385,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 20,
+        "lotacao_prevista": 40.01755586288493,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 21,
+        "lotacao_prevista": 40.80056039113602,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 22,
+        "lotacao_prevista": 41.5835649193871,
+        "dia_semana": "Monday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 6,
+        "lotacao_prevista": 26.950358206425406,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 7,
+        "lotacao_prevista": 27.733362734676486,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 8,
+        "lotacao_prevista": 28.51636726292757,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 9,
+        "lotacao_prevista": 29.299371791178654,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 10,
+        "lotacao_prevista": 30.082376319429734,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 11,
+        "lotacao_prevista": 30.865380847680818,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 12,
+        "lotacao_prevista": 31.648385375931902,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 13,
+        "lotacao_prevista": 32.431389904182986,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 14,
+        "lotacao_prevista": 33.21439443243407,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 15,
+        "lotacao_prevista": 33.99739896068515,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 16,
+        "lotacao_prevista": 34.78040348893624,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 17,
+        "lotacao_prevista": 35.56340801718732,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 18,
+        "lotacao_prevista": 36.3464125454384,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 19,
+        "lotacao_prevista": 37.12941707368948,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 20,
+        "lotacao_prevista": 37.912421601940565,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 21,
+        "lotacao_prevista": 38.69542613019165,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 22,
+        "lotacao_prevista": 39.47843065844273,
+        "dia_semana": "Tuesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 6,
+        "lotacao_prevista": 24.845223945481038,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 7,
+        "lotacao_prevista": 25.628228473732122,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 8,
+        "lotacao_prevista": 26.411233001983206,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 9,
+        "lotacao_prevista": 27.194237530234286,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 10,
+        "lotacao_prevista": 27.97724205848537,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 11,
+        "lotacao_prevista": 28.760246586736454,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 12,
+        "lotacao_prevista": 29.543251114987537,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 13,
+        "lotacao_prevista": 30.326255643238618,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 14,
+        "lotacao_prevista": 31.1092601714897,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 15,
+        "lotacao_prevista": 31.892264699740785,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 16,
+        "lotacao_prevista": 32.67526922799187,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 17,
+        "lotacao_prevista": 33.45827375624295,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 18,
+        "lotacao_prevista": 34.24127828449404,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 19,
+        "lotacao_prevista": 35.02428281274512,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 20,
+        "lotacao_prevista": 35.8072873409962,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 21,
+        "lotacao_prevista": 36.59029186924728,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 22,
+        "lotacao_prevista": 37.373296397498365,
+        "dia_semana": "Wednesday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 6,
+        "lotacao_prevista": 22.74008968453667,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 7,
+        "lotacao_prevista": 23.523094212787754,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 8,
+        "lotacao_prevista": 24.306098741038838,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 9,
+        "lotacao_prevista": 25.08910326928992,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 10,
+        "lotacao_prevista": 25.872107797541005,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 11,
+        "lotacao_prevista": 26.65511232579209,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 12,
+        "lotacao_prevista": 27.438116854043173,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 13,
+        "lotacao_prevista": 28.221121382294253,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 14,
+        "lotacao_prevista": 29.004125910545337,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 15,
+        "lotacao_prevista": 29.787130438796417,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 16,
+        "lotacao_prevista": 30.5701349670475,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 17,
+        "lotacao_prevista": 31.353139495298585,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 18,
+        "lotacao_prevista": 32.13614402354967,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 19,
+        "lotacao_prevista": 32.91914855180075,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 20,
+        "lotacao_prevista": 33.702153080051836,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 21,
+        "lotacao_prevista": 34.48515760830292,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 22,
+        "lotacao_prevista": 35.268162136554004,
+        "dia_semana": "Thursday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 6,
+        "lotacao_prevista": 20.634955423592306,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 7,
+        "lotacao_prevista": 21.41795995184339,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 8,
+        "lotacao_prevista": 22.20096448009447,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 9,
+        "lotacao_prevista": 22.983969008345554,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 10,
+        "lotacao_prevista": 23.766973536596637,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 11,
+        "lotacao_prevista": 24.54997806484772,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 12,
+        "lotacao_prevista": 25.332982593098805,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 13,
+        "lotacao_prevista": 26.11598712134989,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 14,
+        "lotacao_prevista": 26.898991649600973,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 15,
+        "lotacao_prevista": 27.681996177852053,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 16,
+        "lotacao_prevista": 28.465000706103137,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 17,
+        "lotacao_prevista": 29.24800523435422,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 18,
+        "lotacao_prevista": 30.0310097626053,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 19,
+        "lotacao_prevista": 30.814014290856385,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 20,
+        "lotacao_prevista": 31.59701881910747,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 21,
+        "lotacao_prevista": 32.38002334735855,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 22,
+        "lotacao_prevista": 33.163027875609636,
+        "dia_semana": "Friday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 6,
+        "lotacao_prevista": 18.52982116264794,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 7,
+        "lotacao_prevista": 19.31282569089902,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 8,
+        "lotacao_prevista": 20.095830219150105,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 9,
+        "lotacao_prevista": 20.87883474740119,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 10,
+        "lotacao_prevista": 21.66183927565227,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 11,
+        "lotacao_prevista": 22.444843803903353,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 12,
+        "lotacao_prevista": 23.227848332154437,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 13,
+        "lotacao_prevista": 24.01085286040552,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 14,
+        "lotacao_prevista": 24.793857388656605,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 15,
+        "lotacao_prevista": 25.57686191690769,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 16,
+        "lotacao_prevista": 26.359866445158772,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 17,
+        "lotacao_prevista": 27.142870973409856,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 18,
+        "lotacao_prevista": 27.925875501660936,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 19,
+        "lotacao_prevista": 28.70888002991202,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 20,
+        "lotacao_prevista": 29.4918845581631,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 21,
+        "lotacao_prevista": 30.274889086414184,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 22,
+        "lotacao_prevista": 31.057893614665268,
+        "dia_semana": "Saturday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 6,
+        "lotacao_prevista": 16.424686901703573,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 7,
+        "lotacao_prevista": 17.207691429954657,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 8,
+        "lotacao_prevista": 17.99069595820574,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 9,
+        "lotacao_prevista": 18.77370048645682,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 10,
+        "lotacao_prevista": 19.556705014707905,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 11,
+        "lotacao_prevista": 20.33970954295899,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 12,
+        "lotacao_prevista": 21.122714071210073,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 13,
+        "lotacao_prevista": 21.905718599461153,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 14,
+        "lotacao_prevista": 22.688723127712237,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 15,
+        "lotacao_prevista": 23.47172765596332,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 16,
+        "lotacao_prevista": 24.254732184214404,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 17,
+        "lotacao_prevista": 25.037736712465488,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 18,
+        "lotacao_prevista": 25.820741240716572,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 19,
+        "lotacao_prevista": 26.603745768967656,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 20,
+        "lotacao_prevista": 27.386750297218736,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 21,
+        "lotacao_prevista": 28.16975482546982,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 22,
+        "lotacao_prevista": 28.952759353720904,
+        "dia_semana": "Sunday",
+        "gymName": "Exprime"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 6,
+        "lotacao_prevista": 16.58905887077815,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 7,
+        "lotacao_prevista": 16.705761588999138,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 8,
+        "lotacao_prevista": 16.822464307220127,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 9,
+        "lotacao_prevista": 16.93916702544111,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 10,
+        "lotacao_prevista": 17.0558697436621,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 11,
+        "lotacao_prevista": 17.172572461883085,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 12,
+        "lotacao_prevista": 17.289275180104074,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 13,
+        "lotacao_prevista": 17.40597789832506,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 14,
+        "lotacao_prevista": 17.522680616546047,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 15,
+        "lotacao_prevista": 17.639383334767032,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 16,
+        "lotacao_prevista": 17.75608605298802,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 17,
+        "lotacao_prevista": 17.87278877120901,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 18,
+        "lotacao_prevista": 17.989491489429994,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 19,
+        "lotacao_prevista": 18.106194207650983,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 20,
+        "lotacao_prevista": 18.222896925871968,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 21,
+        "lotacao_prevista": 18.339599644092957,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 22,
+        "lotacao_prevista": 18.45630236231394,
+        "dia_semana": "Monday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 6,
+        "lotacao_prevista": 16.357555576019653,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 7,
+        "lotacao_prevista": 16.474258294240638,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 8,
+        "lotacao_prevista": 16.590961012461626,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 9,
+        "lotacao_prevista": 16.707663730682615,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 10,
+        "lotacao_prevista": 16.8243664489036,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 11,
+        "lotacao_prevista": 16.94106916712459,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 12,
+        "lotacao_prevista": 17.057771885345574,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 13,
+        "lotacao_prevista": 17.174474603566562,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 14,
+        "lotacao_prevista": 17.291177321787547,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 15,
+        "lotacao_prevista": 17.407880040008536,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 16,
+        "lotacao_prevista": 17.524582758229524,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 17,
+        "lotacao_prevista": 17.64128547645051,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 18,
+        "lotacao_prevista": 17.757988194671498,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 19,
+        "lotacao_prevista": 17.874690912892483,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 20,
+        "lotacao_prevista": 17.99139363111347,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 21,
+        "lotacao_prevista": 18.108096349334456,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 22,
+        "lotacao_prevista": 18.224799067555445,
+        "dia_semana": "Tuesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 6,
+        "lotacao_prevista": 16.126052281261153,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 7,
+        "lotacao_prevista": 16.24275499948214,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 8,
+        "lotacao_prevista": 16.359457717703126,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 9,
+        "lotacao_prevista": 16.476160435924115,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 10,
+        "lotacao_prevista": 16.592863154145103,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 11,
+        "lotacao_prevista": 16.70956587236609,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 12,
+        "lotacao_prevista": 16.826268590587077,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 13,
+        "lotacao_prevista": 16.942971308808062,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 14,
+        "lotacao_prevista": 17.05967402702905,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 15,
+        "lotacao_prevista": 17.176376745250035,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 16,
+        "lotacao_prevista": 17.293079463471024,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 17,
+        "lotacao_prevista": 17.409782181692012,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 18,
+        "lotacao_prevista": 17.526484899912997,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 19,
+        "lotacao_prevista": 17.643187618133986,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 20,
+        "lotacao_prevista": 17.75989033635497,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 21,
+        "lotacao_prevista": 17.87659305457596,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 22,
+        "lotacao_prevista": 17.993295772796948,
+        "dia_semana": "Wednesday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 6,
+        "lotacao_prevista": 15.894548986502656,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 7,
+        "lotacao_prevista": 16.01125170472364,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 8,
+        "lotacao_prevista": 16.12795442294463,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 9,
+        "lotacao_prevista": 16.244657141165618,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 10,
+        "lotacao_prevista": 16.361359859386603,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 11,
+        "lotacao_prevista": 16.47806257760759,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 12,
+        "lotacao_prevista": 16.594765295828577,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 13,
+        "lotacao_prevista": 16.711468014049565,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 14,
+        "lotacao_prevista": 16.82817073227055,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 15,
+        "lotacao_prevista": 16.94487345049154,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 16,
+        "lotacao_prevista": 17.061576168712527,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 17,
+        "lotacao_prevista": 17.178278886933512,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 18,
+        "lotacao_prevista": 17.2949816051545,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 19,
+        "lotacao_prevista": 17.411684323375486,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 20,
+        "lotacao_prevista": 17.528387041596474,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 21,
+        "lotacao_prevista": 17.64508975981746,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 22,
+        "lotacao_prevista": 17.761792478038448,
+        "dia_semana": "Thursday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 6,
+        "lotacao_prevista": 15.663045691744157,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 7,
+        "lotacao_prevista": 15.779748409965144,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 8,
+        "lotacao_prevista": 15.896451128186131,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 9,
+        "lotacao_prevista": 16.013153846407118,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 10,
+        "lotacao_prevista": 16.129856564628106,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 11,
+        "lotacao_prevista": 16.24655928284909,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 12,
+        "lotacao_prevista": 16.36326200107008,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 13,
+        "lotacao_prevista": 16.479964719291065,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 14,
+        "lotacao_prevista": 16.596667437512053,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 15,
+        "lotacao_prevista": 16.71337015573304,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 16,
+        "lotacao_prevista": 16.830072873954027,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 17,
+        "lotacao_prevista": 16.946775592175015,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 18,
+        "lotacao_prevista": 17.063478310396,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 19,
+        "lotacao_prevista": 17.18018102861699,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 20,
+        "lotacao_prevista": 17.296883746837974,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 21,
+        "lotacao_prevista": 17.413586465058962,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 22,
+        "lotacao_prevista": 17.530289183279947,
+        "dia_semana": "Friday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 6,
+        "lotacao_prevista": 15.431542396985659,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 7,
+        "lotacao_prevista": 15.548245115206646,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 8,
+        "lotacao_prevista": 15.664947833427632,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 9,
+        "lotacao_prevista": 15.78165055164862,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 10,
+        "lotacao_prevista": 15.898353269869606,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 11,
+        "lotacao_prevista": 16.015055988090594,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 12,
+        "lotacao_prevista": 16.13175870631158,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 13,
+        "lotacao_prevista": 16.248461424532568,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 14,
+        "lotacao_prevista": 16.365164142753553,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 15,
+        "lotacao_prevista": 16.48186686097454,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 16,
+        "lotacao_prevista": 16.598569579195527,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 17,
+        "lotacao_prevista": 16.715272297416515,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 18,
+        "lotacao_prevista": 16.831975015637504,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 19,
+        "lotacao_prevista": 16.94867773385849,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 20,
+        "lotacao_prevista": 17.065380452079477,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 21,
+        "lotacao_prevista": 17.182083170300462,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 22,
+        "lotacao_prevista": 17.29878588852145,
+        "dia_semana": "Saturday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 6,
+        "lotacao_prevista": 15.200039102227159,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 7,
+        "lotacao_prevista": 15.316741820448147,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 8,
+        "lotacao_prevista": 15.433444538669134,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 9,
+        "lotacao_prevista": 15.55014725689012,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 10,
+        "lotacao_prevista": 15.666849975111107,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 11,
+        "lotacao_prevista": 15.783552693332094,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 12,
+        "lotacao_prevista": 15.900255411553081,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 13,
+        "lotacao_prevista": 16.016958129774068,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 14,
+        "lotacao_prevista": 16.133660847995056,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 15,
+        "lotacao_prevista": 16.25036356621604,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 16,
+        "lotacao_prevista": 16.36706628443703,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 17,
+        "lotacao_prevista": 16.483769002658015,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 18,
+        "lotacao_prevista": 16.600471720879003,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 19,
+        "lotacao_prevista": 16.717174439099992,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 20,
+        "lotacao_prevista": 16.833877157320977,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 21,
+        "lotacao_prevista": 16.950579875541965,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 22,
+        "lotacao_prevista": 17.06728259376295,
+        "dia_semana": "Sunday",
+        "gymName": "Hydrox"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 6,
+        "lotacao_prevista": 14.053663428213735,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 7,
+        "lotacao_prevista": 14.282289642325779,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 8,
+        "lotacao_prevista": 14.510915856437821,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 9,
+        "lotacao_prevista": 14.739542070549865,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 10,
+        "lotacao_prevista": 14.968168284661909,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 11,
+        "lotacao_prevista": 15.196794498773952,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 12,
+        "lotacao_prevista": 15.425420712885995,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 13,
+        "lotacao_prevista": 15.654046926998038,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 14,
+        "lotacao_prevista": 15.882673141110082,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 15,
+        "lotacao_prevista": 16.111299355222126,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 16,
+        "lotacao_prevista": 16.33992556933417,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 17,
+        "lotacao_prevista": 16.568551783446214,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 18,
+        "lotacao_prevista": 16.797177997558258,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 19,
+        "lotacao_prevista": 17.025804211670298,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 20,
+        "lotacao_prevista": 17.254430425782346,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 21,
+        "lotacao_prevista": 17.483056639894386,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 0,
+        "hora": 22,
+        "lotacao_prevista": 17.71168285400643,
+        "dia_semana": "Monday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 6,
+        "lotacao_prevista": 13.327187493143917,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 7,
+        "lotacao_prevista": 13.555813707255961,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 8,
+        "lotacao_prevista": 13.784439921368005,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 9,
+        "lotacao_prevista": 14.013066135480049,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 10,
+        "lotacao_prevista": 14.241692349592093,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 11,
+        "lotacao_prevista": 14.470318563704135,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 12,
+        "lotacao_prevista": 14.698944777816179,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 13,
+        "lotacao_prevista": 14.927570991928222,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 14,
+        "lotacao_prevista": 15.156197206040266,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 15,
+        "lotacao_prevista": 15.384823420152308,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 16,
+        "lotacao_prevista": 15.613449634264352,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 17,
+        "lotacao_prevista": 15.842075848376396,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 18,
+        "lotacao_prevista": 16.07070206248844,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 19,
+        "lotacao_prevista": 16.299328276600484,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 20,
+        "lotacao_prevista": 16.527954490712528,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 21,
+        "lotacao_prevista": 16.75658070482457,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 1,
+        "hora": 22,
+        "lotacao_prevista": 16.985206918936612,
+        "dia_semana": "Tuesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 6,
+        "lotacao_prevista": 12.600711558074101,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 7,
+        "lotacao_prevista": 12.829337772186145,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 8,
+        "lotacao_prevista": 13.057963986298187,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 9,
+        "lotacao_prevista": 13.286590200410231,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 10,
+        "lotacao_prevista": 13.515216414522275,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 11,
+        "lotacao_prevista": 13.743842628634319,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 12,
+        "lotacao_prevista": 13.972468842746363,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 13,
+        "lotacao_prevista": 14.201095056858405,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 14,
+        "lotacao_prevista": 14.429721270970449,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 15,
+        "lotacao_prevista": 14.658347485082492,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 16,
+        "lotacao_prevista": 14.886973699194536,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 17,
+        "lotacao_prevista": 15.115599913306578,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 18,
+        "lotacao_prevista": 15.344226127418622,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 19,
+        "lotacao_prevista": 15.572852341530666,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 20,
+        "lotacao_prevista": 15.80147855564271,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 21,
+        "lotacao_prevista": 16.030104769754754,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 2,
+        "hora": 22,
+        "lotacao_prevista": 16.258730983866798,
+        "dia_semana": "Wednesday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 6,
+        "lotacao_prevista": 11.874235623004283,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 7,
+        "lotacao_prevista": 12.102861837116327,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 8,
+        "lotacao_prevista": 12.331488051228371,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 9,
+        "lotacao_prevista": 12.560114265340415,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 10,
+        "lotacao_prevista": 12.788740479452459,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 11,
+        "lotacao_prevista": 13.017366693564501,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 12,
+        "lotacao_prevista": 13.245992907676545,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 13,
+        "lotacao_prevista": 13.474619121788589,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 14,
+        "lotacao_prevista": 13.703245335900633,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 15,
+        "lotacao_prevista": 13.931871550012676,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 16,
+        "lotacao_prevista": 14.16049776412472,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 17,
+        "lotacao_prevista": 14.389123978236762,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 18,
+        "lotacao_prevista": 14.617750192348806,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 19,
+        "lotacao_prevista": 14.84637640646085,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 20,
+        "lotacao_prevista": 15.075002620572894,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 21,
+        "lotacao_prevista": 15.303628834684936,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 3,
+        "hora": 22,
+        "lotacao_prevista": 15.53225504879698,
+        "dia_semana": "Thursday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 6,
+        "lotacao_prevista": 11.147759687934467,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 7,
+        "lotacao_prevista": 11.376385902046511,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 8,
+        "lotacao_prevista": 11.605012116158555,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 9,
+        "lotacao_prevista": 11.833638330270599,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 10,
+        "lotacao_prevista": 12.062264544382641,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 11,
+        "lotacao_prevista": 12.290890758494685,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 12,
+        "lotacao_prevista": 12.519516972606729,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 13,
+        "lotacao_prevista": 12.748143186718771,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 14,
+        "lotacao_prevista": 12.976769400830815,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 15,
+        "lotacao_prevista": 13.205395614942859,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 16,
+        "lotacao_prevista": 13.434021829054902,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 17,
+        "lotacao_prevista": 13.662648043166946,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 18,
+        "lotacao_prevista": 13.89127425727899,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 19,
+        "lotacao_prevista": 14.119900471391032,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 20,
+        "lotacao_prevista": 14.348526685503076,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 21,
+        "lotacao_prevista": 14.57715289961512,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 4,
+        "hora": 22,
+        "lotacao_prevista": 14.805779113727164,
+        "dia_semana": "Friday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 6,
+        "lotacao_prevista": 10.42128375286465,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 7,
+        "lotacao_prevista": 10.649909966976693,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 8,
+        "lotacao_prevista": 10.878536181088737,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 9,
+        "lotacao_prevista": 11.107162395200781,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 10,
+        "lotacao_prevista": 11.335788609312825,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 11,
+        "lotacao_prevista": 11.564414823424869,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 12,
+        "lotacao_prevista": 11.793041037536911,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 13,
+        "lotacao_prevista": 12.021667251648955,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 14,
+        "lotacao_prevista": 12.250293465760999,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 15,
+        "lotacao_prevista": 12.478919679873043,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 16,
+        "lotacao_prevista": 12.707545893985086,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 17,
+        "lotacao_prevista": 12.936172108097129,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 18,
+        "lotacao_prevista": 13.164798322209172,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 19,
+        "lotacao_prevista": 13.393424536321216,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 20,
+        "lotacao_prevista": 13.62205075043326,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 21,
+        "lotacao_prevista": 13.850676964545302,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 5,
+        "hora": 22,
+        "lotacao_prevista": 14.079303178657346,
+        "dia_semana": "Saturday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 6,
+        "lotacao_prevista": 9.694807817794834,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 7,
+        "lotacao_prevista": 9.923434031906877,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 8,
+        "lotacao_prevista": 10.152060246018921,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 9,
+        "lotacao_prevista": 10.380686460130963,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 10,
+        "lotacao_prevista": 10.609312674243007,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 11,
+        "lotacao_prevista": 10.837938888355051,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 12,
+        "lotacao_prevista": 11.066565102467095,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 13,
+        "lotacao_prevista": 11.295191316579139,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 14,
+        "lotacao_prevista": 11.523817530691183,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 15,
+        "lotacao_prevista": 11.752443744803225,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 16,
+        "lotacao_prevista": 11.981069958915269,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 17,
+        "lotacao_prevista": 12.209696173027313,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 18,
+        "lotacao_prevista": 12.438322387139356,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 19,
+        "lotacao_prevista": 12.666948601251399,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 20,
+        "lotacao_prevista": 12.895574815363442,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 21,
+        "lotacao_prevista": 13.124201029475486,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    },
+    {
+        "dia_semana_num": 6,
+        "hora": 22,
+        "lotacao_prevista": 13.35282724358753,
+        "dia_semana": "Sunday",
+        "gymName": "SmartFit"
+    }
+]
