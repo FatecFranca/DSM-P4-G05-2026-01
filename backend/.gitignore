@@ -5,3 +5,8 @@ node_modules
 /generated/prisma
 
 /src/iot-simulator
+
+#sim
+reset.js
+seed.js
+simulador.js
