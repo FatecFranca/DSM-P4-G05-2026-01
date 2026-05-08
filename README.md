@@ -6,6 +6,11 @@ Este projeto visa resolver um problema clássico: a superlotação de academias 
 
 ---
 
+## Alunos 
+
+Roberta Bacarollo, Leonardo Sudário, Daniel Olímpio, Gabriel Andrade Cintra 
+
+
 ## 📖 Visão Geral
 
 O sistema coleta, processa e exibe dados de entrada e saída (check-ins e check-outs) dos clientes nas catracas físicas. Ele é composto por três frentes principais de tecnologia:
