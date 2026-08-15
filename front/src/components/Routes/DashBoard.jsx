@@ -15,6 +15,7 @@ import {
   AreaChart,
   Area
 } from "recharts";
+import ExperimentResults from "../ExperimentResults";
 import "./DashBoard.css";
 export default function Dashboard({ gyms = [] }) {
   const [data, setData] = useState(null);
@@ -233,6 +234,7 @@ export default function Dashboard({ gyms = [] }) {
           </ResponsiveContainer>
         </div>
       </div>
+      <ExperimentResults />
     </div>
   );
 }

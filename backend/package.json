@@ -9,24 +9,32 @@
     "dev": "nodemon src/bin/server.js",
     "build": "prisma generate",
     "migrate": "prisma migrate deploy",
-    "studio": "prisma studio"
+    "studio": "prisma studio",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
-  "keywords": ["api", "gymradar", "express"],
+  "keywords": [
+    "api",
+    "gymradar",
+    "express"
+  ],
   "author": "LeoSudario",
-  "license":  "MIT",
-  "dependencies":  {
+  "license": "MIT",
+  "dependencies": {
     "@prisma/client": "^6.17.0",
-    "express": "^5.1.0",
-    "cors": "^2.8.5",
     "bcryptjs": "^3.0.2",
-    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
-    "morgan": "^1.10.0",
-    "cookie-parser": "^1.4.7"
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.10",
     "prisma": "^6.17.0",
-    "nodemon": "^3.1.10"
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.10"
   },
   "engines": {
     "node": ">=18.0.0",

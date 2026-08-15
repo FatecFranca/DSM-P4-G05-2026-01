@@ -1,0 +1,87 @@
+.experiment-results {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.experiment-title {
+  color: #eaeaea;
+  margin: 0 0 0.5rem;
+}
+
+.experiment-name {
+  color: #ee3235;
+}
+
+.experiment-hypothesis {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.experiment-loading,
+.experiment-empty,
+.experiment-error {
+  color: #aaa;
+  font-style: italic;
+}
+
+.experiment-error {
+  color: #ee3235;
+}
+
+.experiment-table-wrap {
+  overflow-x: auto;
+}
+
+.experiment-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #eaeaea;
+}
+
+.experiment-table th,
+.experiment-table td {
+  border: 1px solid #333;
+  padding: 0.6rem 1rem;
+  text-align: center;
+}
+
+.experiment-table th {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.experiment-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.badge-significant {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.badge-inconclusive {
+  background: #b26a00;
+  color: #fff;
+}
+
+.experiment-winner,
+.experiment-uplift,
+.experiment-pvalue {
+  color: #eaeaea;
+  font-weight: 600;
+}

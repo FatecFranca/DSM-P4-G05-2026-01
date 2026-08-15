@@ -41,3 +41,14 @@ model IoTEvent {
 
   @@index([gymName, receivedAt])
 }
+
+model ExperimentEvent {
+  id          String   @id @map("_id") @db.ObjectId @default(auto())
+  experiment  String   // e.g. "home_gym_layout"
+  variant     String   // "A" | "B"
+  eventType   String   // "impression" | "conversion"
+  userId      String?  // stable anonymous id of the user
+  createdAt   DateTime @default(now())
+
+  @@index([experiment, variant, eventType])
+}

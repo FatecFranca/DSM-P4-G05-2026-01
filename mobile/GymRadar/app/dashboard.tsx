@@ -27,7 +27,7 @@ export default function DashboardScreen() {
       setLoading(true);
       try {
         const res = await GymAPI.getDashboardAnalytics(selectedGym);
-        setData(res.data ? res.data : res); // Axios returns inside .data usually, but apiClient might unwrap
+        setData(res);
       } catch (e) {
         console.error("Dashboard analytics error", e);
       } finally {
