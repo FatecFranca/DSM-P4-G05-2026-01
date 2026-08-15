@@ -119,11 +119,27 @@ npx expo start
 
 O projeto segue a disciplina Red-Green-Refactor: cada teste é escrito **antes** da implementação, observado falhar (RED), implementado minimamente (GREEN) e refatorado. Todos os testes rodam de forma automatizada no CI.
 
+> **Demonstração completa do TDD:** consulte [`docs/tdd.md`](docs/tdd.md), que reproduz o ciclo RED → GREEN → REFACTOR de cada feature com as saídas reais dos terminais, e os relatórios de cobertura em [`docs/coverage/`](docs/coverage/). A sequência granular de commits `test(red)` → `feat(green)` está na branch [`feature/tdd-demo`](https://github.com/FatecFranca/DSM-P4-G05-2026-01/tree/feature/tdd-demo).
+
+### Matriz de rastreabilidade (funcionalidade → teste → código)
+
+| Funcionalidade | Arquivo de teste | Código de produção | Suíte | Cobertura |
+|---|---|---|---|---|
+| Lógica estatística do A/B (backend) | [`backend/test/experimentService.test.js`](backend/test/experimentService.test.js) | [`experimentService.js`](backend/src/services/experimentService.js) | `cd backend && npm test` | [`backend.md`](docs/coverage/backend.md) |
+| Rotas `/experiments/*` (backend) | [`backend/test/experimentRoutes.test.js`](backend/test/experimentRoutes.test.js) | [`experimentController.js`](backend/src/controllers/experimentController.js) + [`experimentRoutes.js`](backend/src/routes/experimentRoutes.js) | `cd backend && npm test` | [`backend.md`](docs/coverage/backend.md) |
+| Atribuição de variantes (mobile) | [`experiment.test.ts`](mobile/GymRadar/src/experiments/__tests__/experiment.test.ts) | [`experiment.ts`](mobile/GymRadar/src/experiments/experiment.ts) | `cd mobile/GymRadar && npm test` | [`mobile.md`](docs/coverage/mobile.md) |
+| Variante B — `GymRow` (mobile) | [`GymRow.test.tsx`](mobile/GymRadar/src/components/__tests__/GymRow.test.tsx) | [`GymRow.tsx`](mobile/GymRadar/src/components/GymRow.tsx) | `cd mobile/GymRadar && npm test` | [`mobile.md`](docs/coverage/mobile.md) |
+| Painel de resultados A/B (front) | [`ExperimentResults.test.js`](front/src/components/ExperimentResults.test.js) | [`ExperimentResults.jsx`](front/src/components/ExperimentResults.jsx) | `cd front && npm test -- --watchAll=false` | [`front.md`](docs/coverage/front.md) |
+| Fluxo de autenticação (front) | [`App.test.js`](front/src/App.test.js) | [`App.js`](front/src/App.js) | `cd front && npm test -- --watchAll=false` | [`front.md`](docs/coverage/front.md) |
+
+**Total: 39 testes** (25 backend + 9 mobile + 5 front), todos verdes e executados no CI.
+
 ### Backend (Vitest + Supertest)
 ```bash
 cd backend
 npm test              # roda toda a suíte
 npm run test:watch    # modo watch durante o desenvolvimento
+npm run test:coverage # relatório de cobertura
 ```
 Cobre a lógica pura de experimentação (`src/services/experimentService.js`: atribuição determinística de variantes, agregação de impressões/conversões, uplift e significância estatística via qui-quadrado) e as rotas HTTP (`POST /experiments/event`, `GET /experiments/results`) com Prisma mockado.
 
@@ -131,6 +147,7 @@ Cobre a lógica pura de experimentação (`src/services/experimentService.js`: a
 ```bash
 cd front
 npm test -- --watchAll=false
+npm run test:coverage # relatório de cobertura
 ```
 Cobre o fluxo de autenticação (tela de login/signup) e o painel de resultados A/B (`ExperimentResults`).
 
@@ -139,6 +156,7 @@ Cobre o fluxo de autenticação (tela de login/signup) e o painel de resultados 
 cd mobile/GymRadar
 npm test              # suíte de testes
 npm run typecheck     # verificação de tipos (tsc --noEmit)
+npm run test:coverage # relatório de cobertura
 ```
 Cobre a lógica de atribuição de variantes (`src/experiments/experiment.ts`) e componentes (ex.: `GymRow`).
 

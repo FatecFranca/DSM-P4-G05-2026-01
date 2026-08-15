@@ -11,7 +11,8 @@
     "lint": "expo lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:coverage": "jest --coverage"
   },
   "jest": {
     "preset": "jest-expo",
