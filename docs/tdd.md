@@ -248,7 +248,7 @@ Cobertura de código: ver [`docs/coverage/`](coverage/).
 
 ## Evidência complementar no histórico do git
 
-A branch **`feature/tdd-demo`** contém a sequência granular de commits RED → GREEN para as funcionalidades 1 e 4:
+O histórico da branch **`main`** contém a sequência granular de commits RED → GREEN para as funcionalidades 1 e 4:
 
 ```text
 test(red): experimentService atribui variantes deterministicamente   (teste falha)
@@ -257,4 +257,4 @@ test(red): GymRow renderiza o layout compacto da variante B          (teste falh
 feat(green): implementa GymRow                                       (teste passa)
 ```
 
-No GitHub, abra **Commits** na branch `feature/tdd-demo` para ver a ordem exata: cada teste foi commitado **antes** da sua implementação.
+No GitHub, abra [Commits da `main`](https://github.com/FatecFranca/DSM-P4-G05-2026-01/commits/main) para ver a ordem exata: cada teste foi commitado **antes** da sua implementação.

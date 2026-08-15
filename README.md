@@ -119,7 +119,7 @@ npx expo start
 
 O projeto segue a disciplina Red-Green-Refactor: cada teste é escrito **antes** da implementação, observado falhar (RED), implementado minimamente (GREEN) e refatorado. Todos os testes rodam de forma automatizada no CI.
 
-> **Demonstração completa do TDD:** consulte [`docs/tdd.md`](docs/tdd.md), que reproduz o ciclo RED → GREEN → REFACTOR de cada feature com as saídas reais dos terminais, e os relatórios de cobertura em [`docs/coverage/`](docs/coverage/). A sequência granular de commits `test(red)` → `feat(green)` está na branch [`feature/tdd-demo`](https://github.com/FatecFranca/DSM-P4-G05-2026-01/tree/feature/tdd-demo).
+> **Demonstração completa do TDD:** consulte [`docs/tdd.md`](docs/tdd.md), que reproduz o ciclo RED → GREEN → REFACTOR de cada feature com as saídas reais dos terminais, e os relatórios de cobertura em [`docs/coverage/`](docs/coverage/). A sequência granular de commits `test(red)` → `feat(green)` está no [histórico da `main`](https://github.com/FatecFranca/DSM-P4-G05-2026-01/commits/main).
 
 ### Matriz de rastreabilidade (funcionalidade → teste → código)
 
