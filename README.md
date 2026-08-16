@@ -195,6 +195,56 @@ No **Dashboard Web** (`/dashboard`) existe o painel **"A/B Test"** que consome `
 
 > Regra estatística: um resultado só deve ser declarado vencedor após a amostra ser suficiente e o p-value < 0.05. Não pare o experimento cedo (o famoso *peeking problem*).
 
+### Exemplo de resposta da API (`GET /experiments/results`)
+
+Com ~200 eventos por variante registrados, o endpoint retorna (valores ilustrativos):
+
+```json
+{
+  "experiment": "home_gym_layout",
+  "variants": {
+    "A": { "variant": "A", "impressions": 200, "conversions": 8,  "rate": 0.04  },
+    "B": { "variant": "B", "impressions": 200, "conversions": 32, "rate": 0.16  }
+  },
+  "total":       { "impressions": 400, "conversions": 40, "rate": 0.1 },
+  "uplift":      300,
+  "pValue":      0.0001,
+  "significant": true,
+  "winner":      "B",
+  "confidence":  99.99
+}
+```
+
+Leitura: a variante **B** converteu 4x mais que a **A** (uplift de +300%), com p-value ≈ 0.0001 (< 0.05) — resultado **significativo**, exibindo o selo *Significant* e o vencedor **B** no painel.
+
+### Reproduzindo o experimento na prática
+
+1. Suba o backend: `cd backend && npm run dev` (com o `.env` configurado — ver **Instruções de Instalação e Execução**).
+2. Crie um usuário em `POST /auth/signup` e obtenha o **JWT** em `POST /auth/login` — os endpoints de experimento exigem autenticação.
+3. Abra a **home do app**: ao entrar, o `ExperimentProvider` atribui a variante (A = cartões `OccupancyBar`; B = linhas `GymRow`) e o foco na tela registra `impression`.
+4. Toque em **"View Analytics Dashboard"**: o app registra `conversion` e navega para o dashboard.
+5. No **Dashboard Web** (`/dashboard`), o painel **A/B Test** consome `GET /experiments/results` e atualiza os números em tempo real (enquanto não há eventos, exibe *"No data yet"*).
+
+Para popular a amostra sem o app, registre eventos direto na API:
+
+```bash
+JWT="<token retornado pelo /auth/login>"
+
+curl -X POST http://localhost:5000/experiments/event \
+  -H "Content-Type: application/json" -H "Authorization: Bearer $JWT" \
+  -d '{"experiment":"home_gym_layout","variant":"A","eventType":"impression","userId":"demo-a1"}'
+
+curl -X POST http://localhost:5000/experiments/event \
+  -H "Content-Type: application/json" -H "Authorization: Bearer $JWT" \
+  -d '{"experiment":"home_gym_layout","variant":"B","eventType":"conversion","userId":"demo-b1"}'
+```
+
+```bash
+# consultar os resultados agregados
+curl -H "Authorization: Bearer $JWT" \
+  "http://localhost:5000/experiments/results?experiment=home_gym_layout"
+```
+
 ---
 
 ## 🔁 CI/CD (Integração e Entrega Contínua)
