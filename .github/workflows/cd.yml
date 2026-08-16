@@ -7,15 +7,16 @@ on:
 jobs:
   deploy-backend:
     name: Deploy backend (Render)
-    if: ${{ secrets.RENDER_BACKEND_DEPLOY_HOOK_URL != '' }}
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Render deploy hook
-        run: curl -sS -X POST "${{ secrets.RENDER_BACKEND_DEPLOY_HOOK_URL }}"
+        if: env.RENDER_BACKEND_DEPLOY_HOOK_URL != ''
+        env:
+          RENDER_BACKEND_DEPLOY_HOOK_URL: ${{ secrets.RENDER_BACKEND_DEPLOY_HOOK_URL }}
+        run: curl -sS -X POST "$RENDER_BACKEND_DEPLOY_HOOK_URL"
 
   deploy-front:
     name: Deploy frontend (build + Render)
-    if: ${{ secrets.RENDER_FRONT_DEPLOY_HOOK_URL != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,11 +32,13 @@ jobs:
         env:
           CI: "true"
       - name: Trigger Render static deploy hook
-        run: curl -sS -X POST "${{ secrets.RENDER_FRONT_DEPLOY_HOOK_URL }}"
+        if: env.RENDER_FRONT_DEPLOY_HOOK_URL != ''
+        env:
+          RENDER_FRONT_DEPLOY_HOOK_URL: ${{ secrets.RENDER_FRONT_DEPLOY_HOOK_URL }}
+        run: curl -sS -X POST "$RENDER_FRONT_DEPLOY_HOOK_URL"
 
   publish-mobile:
     name: Publish mobile (EAS Update)
-    if: ${{ secrets.EXPO_TOKEN != '' }}
     continue-on-error: true
     runs-on: ubuntu-latest
     defaults:
@@ -50,6 +53,7 @@ jobs:
           cache-dependency-path: mobile/GymRadar/package-lock.json
       - run: npm ci
       - name: Push an OTA update via EAS
-        run: npx eas-cli update --auto --non-interactive
+        if: env.EXPO_TOKEN != ''
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: npx eas-cli update --auto --non-interactive

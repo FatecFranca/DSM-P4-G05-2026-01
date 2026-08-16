@@ -215,7 +215,7 @@ Workflows do GitHub Actions em `.github/workflows/`:
 | `deploy-front` | Faz build e dispara deploy estático no Render | `RENDER_FRONT_DEPLOY_HOOK_URL` |
 | `publish-mobile` | Publica atualização OTA via EAS Update | `EXPO_TOKEN` |
 
-Cada job do CD é **ignorado automaticamente** enquanto o secret correspondente não estiver configurado no repositório — a pipeline continua verde e passa a publicar assim que as credenciais forem adicionadas.
+Cada job do CD executa em todo push na `main`; os **passos que dependem de credenciais são pulados** enquanto o secret correspondente não estiver configurado no repositório (verificação via `env` no nível do passo) — a pipeline continua verde e passa a publicar assim que as credenciais forem adicionadas.
 
 ### Criando um deploy hook no Render
 1. No painel do Render, acesse o serviço → **Settings** → **Deploy Hook** → **Generate Hook**.
