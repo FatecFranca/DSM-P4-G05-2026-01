@@ -39,7 +39,6 @@ jobs:
 
   publish-mobile:
     name: Publish mobile (EAS Update)
-    continue-on-error: true
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -54,6 +53,7 @@ jobs:
       - run: npm ci
       - name: Push an OTA update via EAS
         if: env.EXPO_TOKEN != ''
+        continue-on-error: true
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: npx eas-cli update --auto --non-interactive
