@@ -5,7 +5,6 @@ O **GymRadar** é um ecossistema de software acadêmico completo voltado para a 
 Este projeto visa resolver um problema clássico: a superlotação de academias em horários de pico. Através do processamento massivo de dados de acessos, oferecemos uma ferramenta de análise preditiva para gestores e um aplicativo em tempo real para os alunos.
 
 ---
-
 ## Alunos 
 
 Roberta Bacarollo, Leonardo Sudário, Daniel Olímpio, Gabriel Andrade Cintra 
